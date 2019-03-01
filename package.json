@@ -1,0 +1,19 @@
+{
+  "name": "acme_categories_hw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --watchAll",
+    "dev": "nodemon server"
+  },
+  "devDependencies": {
+    "jest": "^24.1.0",
+    "supertest": "^3.4.2"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "pg": "^7.8.1",
+    "sequelize": "^4.42.1"
+  }
+}
